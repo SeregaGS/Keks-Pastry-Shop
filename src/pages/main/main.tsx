@@ -45,7 +45,7 @@ const Main = ():JSX.Element => (
                 <button className="card-item__favorites card-item__favorites--active">
                   <span className="visually-hidden">Добавить в избранное</span>
                   <svg width={51} height={41} aria-hidden="true">
-                    <use xlinkHref="#icon-like"></use>
+                    <use xlinkHref="/img/stack.svg#icon-like"></use>
                   </svg>
                 </button>
                 <a className="card-item__link" href="#">
@@ -77,7 +77,7 @@ const Main = ():JSX.Element => (
                 <button className="card-item__favorites">
                   <span className="visually-hidden">Добавить в избранное</span>
                   <svg width={51} height={41} aria-hidden="true">
-                    <use xlinkHref="#icon-like"></use>
+                    <use xlinkHref="/img/stack.svg#icon-like"></use>
                   </svg>
                 </button>
                 <a className="card-item__link" href="#">
@@ -106,7 +106,7 @@ const Main = ():JSX.Element => (
                 </a>
                 <button className="card-item__favorites"><span className="visually-hidden">Добавить в избранное</span>
                   <svg width="51" height="41" aria-hidden="true">
-                    <use xlinkHref="#icon-like"></use>
+                    <use xlinkHref="/img/stack.svg#icon-like"></use>
                   </svg>
                 </button>
                 <a className="card-item__link" href="#">
@@ -121,7 +121,7 @@ const Main = ():JSX.Element => (
                 <div className="random-main__icon-wrapper">
                   <div className="random-main__icon">
                     <svg width="120" height="130" aria-hidden="true">
-                      <use xlinkHref="#icon-keks"></use>
+                      <use xlinkHref="/img/stack.svg#icon-keks"></use>
                     </svg>
                   </div>
                 </div>
@@ -140,19 +140,19 @@ const Main = ():JSX.Element => (
               <span className="review__author">Уважаемый(-ая) Кот</span>
               <div className="star-rating">
                 <svg className="star-rating__star star-rating__star--active" width="30" height="30" aria-hidden="true">
-                  <use xlinkHref="#icon-star"></use>
+                  <use xlinkHref="/img/stack.svg#icon-star"></use>
                 </svg>
                 <svg className="star-rating__star star-rating__star--active" width="30" height="30" aria-hidden="true">
-                  <use xlinkHref="#icon-star"></use>
+                  <use xlinkHref="/img/stack.svg#icon-star"></use>
                 </svg>
                 <svg className="star-rating__star star-rating__star--active" width="30" height="30" aria-hidden="true">
-                  <use xlinkHref="#icon-star"></use>
+                  <use xlinkHref="/img/stack.svg#icon-star"></use>
                 </svg>
                 <svg className="star-rating__star star-rating__star--active" width="30" height="30" aria-hidden="true">
-                  <use xlinkHref="#icon-star"></use>
+                  <use xlinkHref="/img/stack.svg#icon-star"></use>
                 </svg>
                 <svg className="star-rating__star star-rating__star--active" width="30" height="30" aria-hidden="true">
-                  <use xlinkHref="#icon-star"></use>
+                  <use xlinkHref="/img/stack.svg#icon-star"></use>
                 </svg>
               </div>
               <div className="review__text-wrapper">
@@ -191,7 +191,7 @@ const Main = ():JSX.Element => (
                 <label className="custom-toggle__label" htmlFor="user-agreement-id-10">Кондитерская 1</label>
                 <address className="custom-toggle__address">Морской пр. 2А
                   <svg className="custom-toggle__icon" width="26" height="24" aria-hidden="true">
-                    <use xlinkHref="#icon-keks-footprint"></use>
+                    <use xlinkHref="/img/stack.svg#icon-keks-footprint"></use>
                   </svg>
                 </address>
               </div>
@@ -202,7 +202,7 @@ const Main = ():JSX.Element => (
                 <label className="custom-toggle__label" htmlFor="user-agreement-id-12">Кондитерская 2</label>
                 <address className="custom-toggle__address">Морской пр. 2А
                   <svg className="custom-toggle__icon" width="26" height="24" aria-hidden="true">
-                    <use xlinkHref="#icon-keks-footprint"></use>
+                    <use xlinkHref="/img/stack.svg#icon-keks-footprint"></use>
                   </svg>
                 </address>
               </div>
@@ -213,7 +213,7 @@ const Main = ():JSX.Element => (
                 <label className="custom-toggle__label" htmlFor="user-agreement-id-13">Производство</label>
                 <address className="custom-toggle__address">Морской пр. 2А
                   <svg className="custom-toggle__icon" width="26" height="24" aria-hidden="true">
-                    <use xlinkHref="#icon-keks-footprint"></use>
+                    <use xlinkHref="/img/stack.svg#icon-keks-footprint"></use>
                   </svg>
                 </address>
               </div>
@@ -240,7 +240,7 @@ const Main = ():JSX.Element => (
                   Вконтакте
                 </span>
                 <svg width="50" height="50" aria-hidden="true">
-                  <use xlinkHref="#icon-vk"></use>
+                  <use xlinkHref="/img/stack.svg#icon-vk"></use>
                 </svg>
               </a>
             </li>
@@ -255,7 +255,7 @@ const Main = ():JSX.Element => (
                   Телеграм
                 </span>
                 <svg width="50" height="50" aria-hidden="true">
-                  <use xlinkHref="#icon-telegram"></use>
+                  <use xlinkHref="/img/stack.svg#icon-telegram"></use>
                 </svg>
               </a>
             </li>
